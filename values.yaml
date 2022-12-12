@@ -51,7 +51,7 @@ ingress:
     - host: www.vishaltanna.com
       paths:
         - path: /
-          pathType: Prefix
+          pathType: Exact
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
